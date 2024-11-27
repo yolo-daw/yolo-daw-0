@@ -1,0 +1,8 @@
+ultralytics==8.0.5
+opencv-python
+numpy
+matplotlib
+scikit-image
+opencv-python-headless
+ultralytics[onnxruntime]
+sklearn
