@@ -1,8 +1,15 @@
 # Object Detection and Defogging Pipeline
 
-This paper explores and compares the effects of various dehazing techniques on object detection in adverse weather conditions through common object detection algorithms. The aim of the paper is to develop an optimum technique capable of accurate traffic object detection in low visibility situations. On developing, this algorithm can help automated cars to drive safely in adverse weather conditions and can be used as an ADAS to further lower the risks of accidents in such situations. This paper aims to improve the performance of object detection models used in adverse conditions through implementing various dehazing techniques. The model is trained using state-of-the-art YOLO v8 architecture provided by the ultralytics. A comparative analysis between a model trained on unedited images of DAWN Dataset and de-hazed images of DAW Dataset is analyzed and studied based on various performance metrics. The results suggested (hopefully) significant increase in accuracy (mAP) of the objects being detected and classified even in foggy, sandy, rainy and ____ conditions. This study recommends the usage of such techniques for an overall more generic and dynamic model.
-
-<img src="assets/daw-0.png" alt="Detection in foggy weather" width="500" height="auto" style="margin: 0px;">
+<table style="text-align: center;">
+  <tr>
+    <td width="400">
+        <img src="assets/daw-0.png" alt="Detection in foggy weather" width="500" height="auto">
+    </td>
+    <td width="600">
+       This paper explores and compares the effects of various dehazing techniques on object detection in adverse weather conditions through common object detection algorithms. The aim of the paper is to develop an optimum technique capable of accurate traffic object detection in low visibility situations. On developing, this algorithm can help automated cars to drive safely in adverse weather conditions and can be used as an ADAS to further lower the risks of accidents in such situations. This paper aims to improve the performance of object detection models used in adverse conditions through implementing various dehazing techniques. The model is trained using state-of-the-art YOLO v8 architecture provided by the ultralytics. A comparative analysis between a model trained on unedited images of DAWN Dataset and de-hazed images of DAW Dataset is analyzed and studied based on various performance metrics. The results suggested (hopefully) significant increase in accuracy (mAP) of the objects being detected and classified even in foggy, sandy, rainy and conditions. This study recommends the usage of such techniques for an overall more generic and dynamic model. 
+    </td>
+  </tr>
+</table>
 
 ## Table of Contents
 
@@ -12,10 +19,11 @@ This paper explores and compares the effects of various dehazing techniques on o
 4. [Techniques Used](#techniques-used)
 5. [Libraries Used](#libraries-used)
 6. [Setup & Installation](#setup--installation)
-7. [Usage](#usage)
-8. [Future Scope](#future-scope)
-9. [License](#license)
-10. [Conclusion](#conclusion)
+7. [Results](#results)
+8. [Usage](#usage)
+9. [Future Scope](#future-scope)
+10. [License](#license)
+11. [Conclusion](#conclusion)
 
 ## Project Overview
 
